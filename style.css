@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "League Spartan", sans-serif;
+}
+
+.wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+   
+}
+
+.column1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7em;
+}
+
+.header{
+    color: hsl(300, 43%, 22%);
+    font-size:3rem ;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.header-description{
+    font-weight: 400;
+}
+
+.left{
+max-width: 35%;  
+}
+
+.reviews{
+    background-color:hsl(300, 24%, 96%) ;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.column2{
+    display: flex;
+    
+}
+
+.card{
+
+margin: 70px 20px;
+background-color: hsl(300, 43%, 22%);
+border-radius: 5px;
+max-width: 33%;
+padding: 20px;
+
+}
+
+.profil{
+   border-radius: 100px;
+   width: 50px;
+}
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.name{
+margin-left: 15px;
+}
+h3{
+    color: black;
+}
+h4{
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+.cardpara{
+    color: white;
+}
+
+.num2{
+position: relative;
+bottom: -10px;
+}
+
+.num3{
+    position: relative;
+    bottom: -20px;
+}
+
+@media (max-width:760px) {
+    .column1{
+        display: flex;
+        flex-direction: column;
+       margin: 0 auto;
+    }
+    .column2{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        min-width: 300px;
+        margin: 0 auto;
+    }
+
+    .left{
+        min-width: 300px;
+        margin: 20px auto;
+    }
+
+    .right{
+        min-width: 300px;
+        margin:0 auto;
+    }
+}
